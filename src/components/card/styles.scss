@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=InterL:wght@200&display=swap");
+
+.cardContainer {
+  width: 75%;
+  display: grid;
+  letter-spacing: -2%;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
+  grid-column-gap: 15px;
+  width: 75%;
+}
+.cardsContainer {
+  width: calc(100% + 10px);
+  overflow: auto;
+  height: 355px;
+  padding: 5px;
+}
+.trainer {
+  font-size: 14;
+  font-family: "InterL", sans-serif;
+  color: #828282;
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+  align-items: center;
+  grid-column: 1;
+  grid-row: 1;
+}
+.trainerc {
+  font-size: 14;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  color: #828282;
+  justify-content: center;
+  grid-column: 2;
+  grid-row: 1;
+  justify-content: flex-start;
+}
+.email {
+  font-size: 14;
+  font-family: "InterL", sans-serif;
+  color: #828282;
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+  align-items: center;
+  grid-column: 1;
+  grid-row: 2;
+}
+.emailc {
+  font-size: 14;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  color: #828282;
+  justify-content: center;
+  grid-column: 2;
+  grid-row: 2;
+  justify-content: flex-start;
+}
+.mobile {
+  font-size: 14;
+  font-family: "InterL", sans-serif;
+  color: #828282;
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+  align-items: center;
+  grid-column: 1;
+  grid-row: 3;
+}
+.mobilec {
+  font-size: 14;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  color: #828282;
+  justify-content: center;
+  grid-column: 2;
+  grid-row: 3;
+  justify-content: flex-start;
+}
+.contentContainer {
+  background-color: #ffffff;
+  border-radius: 25px;
+  box-shadow: 0px 4px 4px rgba(97, 97, 97, 0.1);
+  padding: 11px;
+  margin-top: 16px;
+}
+.idContainer {
+  letter-spacing: -2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  div {
+    font-size: 12;
+  }
+}
+.topContent {
+  display: flex;
+}
+.desc {
+  display: flex;
+  font-size: 14;
+  color: #828282;
+  font-family: "InterL", sans-serif;
+  letter-spacing: -2%;
+  overflow-wrap: break-word;
+  word-break: normal;
+}
+.IDIdentifier {
+  letter-spacing: -2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  color: #bdbdbd;
+  font-family: "InterL", sans-serif;
+  font-size: 12;
+  div {
+    display: flex;
+    font-family: "Inter", sans-serif;
+  }
+}

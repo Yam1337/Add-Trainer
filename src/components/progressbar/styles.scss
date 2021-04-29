@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+
+.progressBar {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 16px 0px 16px 0px;
+}
+.bar {
+  display: flex;
+  width: 75%;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+}
+.green {
+  color: #2bc155;
+}
+.gray {
+  color: #bdbdbd;
+}
+.bcgreen {
+  background-color: #2bc155;
+}
+.bcgray {
+  background-color: #bdbdbd;
+}
+.bcwhite {
+  background-color: #ffffff;
+}
+.progressLR {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 4px 0px 4px;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+}
+.scircle {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+}
+.line {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+  height: 2px;
+  border-radius: 5px;
+}
+.sline {
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+  align-items: flex-start;
+  width: 50%;
+  height: 2px;
+  border-radius: 5px;
+}
+.progressText {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  letter-spacing: -4%;
+  font-family: "Inter", sans-serif;
+}

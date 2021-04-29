@@ -1,0 +1,19 @@
+.addTrainer {
+  font-family: "Inter", sans-serif;
+  color: #4f4f4f;
+  font-size: 18px;
+  letter-spacing: -2%;
+}
+
+.topBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+/*# sourceMappingURL=styles.css.map */
