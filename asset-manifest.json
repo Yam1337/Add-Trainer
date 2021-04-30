@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Add-Trainer/static/css/main.b6e3d8c8.chunk.css",
+    "main.js": "/Add-Trainer/static/js/main.965a6a05.chunk.js",
+    "main.js.map": "/Add-Trainer/static/js/main.965a6a05.chunk.js.map",
+    "runtime-main.js": "/Add-Trainer/static/js/runtime-main.93ab7e34.js",
+    "runtime-main.js.map": "/Add-Trainer/static/js/runtime-main.93ab7e34.js.map",
+    "static/js/2.385b620d.chunk.js": "/Add-Trainer/static/js/2.385b620d.chunk.js",
+    "static/js/2.385b620d.chunk.js.map": "/Add-Trainer/static/js/2.385b620d.chunk.js.map",
+    "static/js/3.2f7c30ef.chunk.js": "/Add-Trainer/static/js/3.2f7c30ef.chunk.js",
+    "static/js/3.2f7c30ef.chunk.js.map": "/Add-Trainer/static/js/3.2f7c30ef.chunk.js.map",
+    "index.html": "/Add-Trainer/index.html",
+    "static/css/main.b6e3d8c8.chunk.css.map": "/Add-Trainer/static/css/main.b6e3d8c8.chunk.css.map",
+    "static/js/2.385b620d.chunk.js.LICENSE.txt": "/Add-Trainer/static/js/2.385b620d.chunk.js.LICENSE.txt",
+    "static/media/check.e3d6dd03.svg": "/Add-Trainer/static/media/check.e3d6dd03.svg",
+    "static/media/close.0b774e55.svg": "/Add-Trainer/static/media/close.0b774e55.svg",
+    "static/media/sclose.07389525.svg": "/Add-Trainer/static/media/sclose.07389525.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.93ab7e34.js",
+    "static/js/2.385b620d.chunk.js",
+    "static/css/main.b6e3d8c8.chunk.css",
+    "static/js/main.965a6a05.chunk.js"
+  ]
+}
