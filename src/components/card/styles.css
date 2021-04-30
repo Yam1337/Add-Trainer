@@ -185,7 +185,7 @@
   font-family: "InterL", sans-serif;
   letter-spacing: -2%;
   overflow-wrap: break-word;
-  word-break: normal;
+  word-break: break-all;
 }
 
 .IDIdentifier {

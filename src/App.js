@@ -16,6 +16,7 @@ function App() {
   const [desc, setDesc] = useState("");
   const [myInfo, setMyInfo] = useState([]);
   const [buttonState, setButtonState] = useState(true);
+  const [IDnum, setIDnum] = useState(1);
   const emailIsValid = (email) => {
     return /\S+@\S+\.\S+/.test(email);
   };
@@ -29,12 +30,13 @@ function App() {
         email: email,
         mobile: mobile,
         desc: desc,
-        id: `TA${(myInfo.length + 1).toLocaleString("en-US", {
+        id: `TA${IDnum.toLocaleString("en-US", {
           minimumIntegerDigits: 4,
           useGrouping: false,
         })}`,
       },
     ]);
+    setIDnum(IDnum + 1);
     setTrainername("");
     setTrainersurname("");
     setEmail("");
