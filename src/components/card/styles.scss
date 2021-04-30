@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=InterL:wght@200&display=swap");
 
 .cardContainer {
-  width: 75%;
+  width: 70%;
   display: grid;
   letter-spacing: -2%;
   grid-template-rows: 1fr 1fr 1fr;
@@ -17,7 +17,7 @@
   padding: 5px;
 }
 .trainer {
-  font-size: 14;
+  font-size: 14px;
   font-family: "InterL", sans-serif;
   color: #828282;
   display: flex;
@@ -28,17 +28,19 @@
   grid-row: 1;
 }
 .trainerc {
-  font-size: 14;
+  font-size: 14px;
   font-family: "Inter", sans-serif;
   display: flex;
   color: #828282;
   justify-content: center;
+  align-content: center;
+  align-items: center;
   grid-column: 2;
   grid-row: 1;
   justify-content: flex-start;
 }
 .email {
-  font-size: 14;
+  font-size: 14px;
   font-family: "InterL", sans-serif;
   color: #828282;
   display: flex;
@@ -49,17 +51,19 @@
   grid-row: 2;
 }
 .emailc {
-  font-size: 14;
+  font-size: 14px;
   font-family: "Inter", sans-serif;
   display: flex;
   color: #828282;
   justify-content: center;
+  align-content: center;
+  align-items: center;
   grid-column: 2;
   grid-row: 2;
   justify-content: flex-start;
 }
 .mobile {
-  font-size: 14;
+  font-size: 14px;
   font-family: "InterL", sans-serif;
   color: #828282;
   display: flex;
@@ -70,11 +74,13 @@
   grid-row: 3;
 }
 .mobilec {
-  font-size: 14;
+  font-size: 14px;
   font-family: "Inter", sans-serif;
   display: flex;
   color: #828282;
   justify-content: center;
+  align-content: center;
+  align-items: center;
   grid-column: 2;
   grid-row: 3;
   justify-content: flex-start;
@@ -92,16 +98,13 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-end;
-  div {
-    font-size: 12;
-  }
 }
 .topContent {
   display: flex;
 }
 .desc {
   display: flex;
-  font-size: 14;
+  font-size: 14px;
   color: #828282;
   font-family: "InterL", sans-serif;
   letter-spacing: -2%;
@@ -109,6 +112,7 @@
   word-break: break-all;
 }
 .IDIdentifier {
+  font-size: 12px;
   letter-spacing: -2%;
   display: flex;
   justify-content: center;
@@ -116,8 +120,8 @@
   align-content: center;
   color: #bdbdbd;
   font-family: "InterL", sans-serif;
-  font-size: 12;
   div {
+    font-size: 12px;
     display: flex;
     font-family: "Inter", sans-serif;
   }

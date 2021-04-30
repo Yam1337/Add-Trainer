@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=InterL:wght@200&display=swap");
 .cardContainer {
-  width: 75%;
+  width: 70%;
   display: -ms-grid;
   display: grid;
   letter-spacing: -2%;
@@ -21,7 +21,7 @@
 }
 
 .trainer {
-  font-size: 14;
+  font-size: 14px;
   font-family: "InterL", sans-serif;
   color: #828282;
   display: -webkit-box;
@@ -42,7 +42,7 @@
 }
 
 .trainerc {
-  font-size: 14;
+  font-size: 14px;
   font-family: "Inter", sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -51,6 +51,11 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -ms-grid-column: 2;
   grid-column: 2;
   -ms-grid-row: 1;
@@ -61,7 +66,7 @@
 }
 
 .email {
-  font-size: 14;
+  font-size: 14px;
   font-family: "InterL", sans-serif;
   color: #828282;
   display: -webkit-box;
@@ -82,7 +87,7 @@
 }
 
 .emailc {
-  font-size: 14;
+  font-size: 14px;
   font-family: "Inter", sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -91,6 +96,11 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -ms-grid-column: 2;
   grid-column: 2;
   -ms-grid-row: 2;
@@ -101,7 +111,7 @@
 }
 
 .mobile {
-  font-size: 14;
+  font-size: 14px;
   font-family: "InterL", sans-serif;
   color: #828282;
   display: -webkit-box;
@@ -122,7 +132,7 @@
 }
 
 .mobilec {
-  font-size: 14;
+  font-size: 14px;
   font-family: "Inter", sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -131,6 +141,11 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -ms-grid-column: 2;
   grid-column: 2;
   -ms-grid-row: 3;
@@ -166,10 +181,6 @@
           align-items: flex-end;
 }
 
-.idContainer div {
-  font-size: 12;
-}
-
 .topContent {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -180,7 +191,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-size: 14;
+  font-size: 14px;
   color: #828282;
   font-family: "InterL", sans-serif;
   letter-spacing: -2%;
@@ -189,6 +200,7 @@
 }
 
 .IDIdentifier {
+  font-size: 12px;
   letter-spacing: -2%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -203,10 +215,10 @@
       align-content: center;
   color: #bdbdbd;
   font-family: "InterL", sans-serif;
-  font-size: 12;
 }
 
 .IDIdentifier div {
+  font-size: 12px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

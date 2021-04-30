@@ -41,7 +41,7 @@ function Card(props) {
                 }}
               />
               <div className="IDIdentifier">
-                ID: <div>{x.id}</div>
+                ID:<div>{`# ${x.id}`}</div>
               </div>
             </div>
           </div>
