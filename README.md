@@ -1,14 +1,8 @@
 # Add Trainer
 
 <div align="center">
-<img src="https://github.com/Yam1337/Marketing-Banners/blob/master/banner1.gif">
+<img src="https://github.com/Yam1337/Add-Trainer/blob/master/addtrainer.gif">
 </div>
-<p align="center">
-    <img src="https://github.com/Yam1337/Marketing-Banners/blob/master/banner2.gif">
-</p>
-<p align="center">
-    <img src="https://github.com/Yam1337/Marketing-Banners/blob/master/counter.jpg">
-</p>
 
 # Description
 
